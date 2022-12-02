@@ -138,13 +138,13 @@ class Tree
             ArrayList<Integer> sublist=new ArrayList<>();
            
            for(int i=0;i<qsize;i++){
-                 node=q.poll();
-                 sublist.add(node.data);
+                 Node node1=q.poll();
+                 sublist.add(node1.data);
                  //if(i==0)
                  //  ans.add(node.data);
                
-                if(node.left!=null) q.add(node.left);
-                if(node.right!=null) q.add(node.right);
+                if(node1.left!=null) q.add(node1.left);
+                if(node1.right!=null) q.add(node1.right);
           }
             ans.add(sublist.get(0));
         }
