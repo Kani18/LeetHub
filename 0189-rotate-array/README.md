@@ -1,7 +1,7 @@
 <h2><a href="https://leetcode.com/problems/rotate-array/">189. Rotate Array</a></h2><h3>Medium</h3><hr><div><p>Given an array, rotate the array to the right by <code>k</code> steps, where <code>k</code> is non-negative.</p>
 
 <p>&nbsp;</p>
-<p><strong class="example">Exampl 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> nums = [1,2,3,4,5,6,7], k = 3
 <strong>Output:</strong> [5,6,7,1,2,3,4]
