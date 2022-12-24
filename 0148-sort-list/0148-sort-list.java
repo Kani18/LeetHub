@@ -15,7 +15,7 @@ class Solution {
              return head;
         
        // ListNode mid=middleNode(head);
-        ListNode prev=null;
+        ListNode prev=head;
         ListNode slow=head;
         ListNode fast=head;
         
