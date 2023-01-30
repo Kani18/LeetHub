@@ -12,10 +12,10 @@ class Solution:
         
         while(l<=h):
             mid=l+(h-l)//2
-            target=guess(mid)
-            if(target==0):
+           
+            if(guess(mid)==0):
                 return mid
-            elif(target>0):
+            elif(guess(mid)>0):
                 l=mid+1
             else:
                 h=mid-1
