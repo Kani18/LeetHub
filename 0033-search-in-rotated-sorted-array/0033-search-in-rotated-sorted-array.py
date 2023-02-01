@@ -15,8 +15,8 @@ class Solution:
          n=len(nums)
          if(n==1 and nums[0]!=target):
                 return -1
-         if(n==1 and nums[0]==target):
-               return 0
+       #  if(n==1 and nums[0]==target):
+             #  return 0
          pivot=0
          for i in range(len(nums)-1):
             if(nums[i+1]<nums[i]):
