@@ -5,11 +5,11 @@ class Solution:
             fs=0
             for j in range(0,i):
                 fs+=nums[j]
-            print(fs)
+       
             bs=0
             for k in range(i+1,n):
                 bs+=nums[k]
-            print(bs)
+          
             if(fs==bs):
                 return i
         return -1
