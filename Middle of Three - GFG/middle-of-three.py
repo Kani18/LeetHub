@@ -2,11 +2,10 @@
 
 class Solution:
     def middle(self,A,B,C):
-        #code here
         a=[]
         a.extend([A,B,C])
         a.sort()
-        
+        # print(a)
         return a[1]
 
 
