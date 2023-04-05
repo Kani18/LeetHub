@@ -34,12 +34,12 @@ class Solution {
             sum+=nums[i];
             
             if(i>=k-1){
-               // avg=sum/k;
-                maxavg=Math.max(maxavg,sum);
+                avg=sum/k;
+                maxavg=Math.max(maxavg,avg);
                 sum-=nums[ws++];
             }
         }
-        return (double)maxavg/k;
+        return maxavg;
         
     }
 }
