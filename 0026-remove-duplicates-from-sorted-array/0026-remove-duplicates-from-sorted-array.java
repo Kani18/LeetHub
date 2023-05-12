@@ -11,13 +11,23 @@ class Solution {
         
     }
 }*/
-        int N=nums.length;
+      /*  int N=nums.length;
         int k=1;
         for(int i=1;i<N;i++){
             if(nums[i] != nums[i-1]){
                 nums[k++]=nums[i];
             }
         }
-        return k;
+        return k;*/
+        
+        int n=nums.length;
+        int j=0;
+        
+        for(int i=0;i<n-1;i++){
+            if(nums[i] !=nums[i+1])
+                nums[j++]=nums[i];
+        }
+        nums[j++]=nums[n-1];
+        return j;
     }
 }
